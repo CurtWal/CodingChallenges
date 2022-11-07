@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge1", "CodingC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodingChallenges", "CodingChallenges", "{08051DE9-1571-4522-B547-0355320568AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge2", "CodingChallenge2\CodingChallenge2.csproj", "{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{2F0E4CF6-9BF7-4EC8-B050-BA51CC2B69D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F0E4CF6-9BF7-4EC8-B050-BA51CC2B69D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F0E4CF6-9BF7-4EC8-B050-BA51CC2B69D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2F0E4CF6-9BF7-4EC8-B050-BA51CC2B69D3} = {08051DE9-1571-4522-B547-0355320568AE}
+		{AC598E3E-50F5-4A7A-8C21-77D2E18235BC} = {08051DE9-1571-4522-B547-0355320568AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA762B71-91A3-491B-BBF2-0A321B319ED6}
