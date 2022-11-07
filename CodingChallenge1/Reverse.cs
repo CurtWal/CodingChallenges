@@ -17,7 +17,7 @@ namespace CodingChallenge1
             for (int i = ray.Length - 1; i >= 0; i--)
             {
                 revray[counter] = ray[i];
-                counter++;
+                counter++
             }
 
             foreach (int i in revray)
