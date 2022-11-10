@@ -25,7 +25,7 @@
         int[] Joined = new int[] { sum, sum1, sum2};
         Console.WriteLine(string.Join(", ", Joined));
 
-        GetNthFibonacci_Ite(9);
+        GetNthFibonacci_Ite(8);
 
 
     }

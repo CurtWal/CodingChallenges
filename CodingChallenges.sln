@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodingChallenges", "CodingC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge2", "CodingChallenge2\CodingChallenge2.csproj", "{AC598E3E-50F5-4A7A-8C21-77D2E18235BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge3", "CodeChallenge3\CodeChallenge3.csproj", "{58C421B7-215F-4A0C-BE53-0ED9C969B40A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge3", "CodeChallenge3\CodeChallenge3.csproj", "{58C421B7-215F-4A0C-BE53-0ED9C969B40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge4", "CodingChallenge4\CodingChallenge4.csproj", "{3ACBCDD5-B873-4113-96CA-6A470CEED91B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge4", "CodingChallenge4\CodingChallenge4.csproj", "{3ACBCDD5-B873-4113-96CA-6A470CEED91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge5", "CodingChallenge5\CodingChallenge5.csproj", "{4F93A3E8-80F7-4C87-BC57-0F662CCE28F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{3ACBCDD5-B873-4113-96CA-6A470CEED91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ACBCDD5-B873-4113-96CA-6A470CEED91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ACBCDD5-B873-4113-96CA-6A470CEED91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F93A3E8-80F7-4C87-BC57-0F662CCE28F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F93A3E8-80F7-4C87-BC57-0F662CCE28F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F93A3E8-80F7-4C87-BC57-0F662CCE28F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F93A3E8-80F7-4C87-BC57-0F662CCE28F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
