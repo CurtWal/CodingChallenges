@@ -15,6 +15,7 @@ namespace CodingChallenge5
     public class LinkedList
     {
         private Node head;
+        
         public void AddFirst(string Items)
         {
             Node addNext = new Node();
@@ -46,7 +47,45 @@ namespace CodingChallenge5
                 current.next = addNext;
             }
         }
+        //challenge 7
+        //starting from the last value in a linked list go backwards and display that value /string 
+        public void writeNthFromLast(int N)
+        {
+            Node main = head;
+            Node sub = head;
+
+            int count = 0;
+            if (head != null)
+            {
+                while (count < N)
+                {
+                    if (sub == null)
+                    {
+                        Console.WriteLine(N + " is greater than the no. " + " of nodes in the list");
+                        return;
+                    }
+                    sub = sub.next;
+                    count++;
+                }
+                if (sub == null)
+                {
+                    head = head.next;
+                    if (head != null)
+                        Console.WriteLine("Node no. " + N + " from last is " + main.Items);
+                }
+                else
+                {
+                    while (sub != null)
+                    {
+                        main = main.next;
+                        sub = sub.next;
+                    }
+                    Console.WriteLine("Node no. " + N + " from last is " + main.Items);
+                }
+            }
+        }
     }
+    
     //Doubly Node
     public class DoublyNode
     {
@@ -86,11 +125,14 @@ namespace CodingChallenge5
         static void Main(string[] args)
         {
             Console.WriteLine("My Favorite Fruits:");
+            //making a empty linkedList
             LinkedList<string> myList1 = new LinkedList<string>();
-
+            //adding strings to the list
             myList1.AddFirst("Apples");
             myList1.AddFirst("Oranges");
             myList1.AddFirst("Mangos");
+
+            //foreach loopping through the list to display it one at a time
             foreach (string str in myList1)
             {
                 Console.WriteLine(str);
@@ -99,12 +141,14 @@ namespace CodingChallenge5
             Console.WriteLine();
 
             Console.WriteLine("My Least Favorite Fruits:");
+            //making a new empty linked list to replace the first
             LinkedList<string> myList2 = new LinkedList<string>();
 
             myList2.AddLast("Watermelons");
             myList2.AddLast("Cherrys");
             myList2.AddLast("Bananas");
 
+            
             foreach (string str in myList2)
             {
                 Console.WriteLine(str);
@@ -142,11 +186,29 @@ namespace CodingChallenge5
             DoublyNode fourth = new DoublyNode();
             fourth.Travel = "Bikes";
             fourth.next = null;
-            //linking with the thirs node
+            //linking with the third node
             fourth.prev = third;
             third.next = fourth;
 
             MyList.WriteList();
+
+            //coding challenge 7
+            LinkedList myList3 = new LinkedList();
+            myList3.AddFirst("Apples");
+            myList3.AddFirst("Oranges");
+            myList3.AddFirst("Mangos");
+            myList3.AddFirst("PineApple");
+            //this goes forward not backwards
+            myList3.writeNthFromLast(3);
+
+            LinkedList myList4 = new LinkedList();
+            myList4.AddLast("Banana");
+            myList4.AddLast("Cherry");
+            myList4.AddLast("WaterMelon");
+            myList4.AddLast("BlueBerries");
+            //this goes backwards and throws an expections for a value that is not available 
+            myList4.writeNthFromLast(3);
+            myList4.writeNthFromLast(6);
 
         }
     }
